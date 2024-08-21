@@ -146,7 +146,6 @@ spec:
           securityContext: {}
       securityContext: {}
       serviceAccountName: demo-app-argocd-app-demo
-
       syncPolicy:
         syncOptions:
         - CreateNamespace=true
