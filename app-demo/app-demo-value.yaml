@@ -6,7 +6,8 @@ replicaCount: 1
 
 image:
   repository: idiosyncrasy00/demo-app
-  pullPolicy: Always
+  #pullPolicy: IfNotPresent
+  pullPolicy: Never
   # Overrides the image tag whose default is the chart appVersion.
   tag: "v1.27"
 
